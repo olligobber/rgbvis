@@ -32,3 +32,4 @@ function loop() {
 	});
 }
 loop();
+console.log("Source code is at https://github.com/olligobber/rgbvis for easy viewing");
