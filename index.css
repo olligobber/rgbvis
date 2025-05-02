@@ -1,5 +1,11 @@
+html {
+	height: 100vh;
+	padding: 0;
+}
+
 body {
-	height: 98%;
+	min-height: 99vh;
+	padding: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
