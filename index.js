@@ -28,10 +28,10 @@ function draw(t) {
 	var [r,g,b] = rgb(t);
 	// Update the background colour
 	bodyele.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
-	// Set the bar heights, in the range from 0 to 70 pixels
-	rele.style.height = (r / 256 * 70) + "px";
-	gele.style.height = (g / 256 * 70) + "px";
-	bele.style.height = (b / 256 * 70) + "px";
+	// Set the bar heights, in the range from 0 to 14 vmin units
+	rele.style.height = (r / 256 * 14) + "vmin";
+	gele.style.height = (g / 256 * 14) + "vmin";
+	bele.style.height = (b / 256 * 14) + "vmin";
 }
 
 // Parameter that will change over time

@@ -14,16 +14,16 @@ body {
 }
 
 #box {
-	width: 90px;
-	height: 90px;
-	border-radius: 5px;
-	padding: 5px;
+	width: 18vmin;
+	height: 18vmin;
+	border-radius: 1vmin;
+	padding: 1vmin;
 
 	background-color: white;
 
 	display: grid;
-	grid-template-columns: 30px 30px 30px;
-	grid-template-rows: 70px 20px;
+	grid-template-columns: 6vmin 6vmin 6vmin;
+	grid-template-rows: 14vmin 4vmin;
 }
 
 .label {
@@ -32,11 +32,11 @@ body {
 	align-self: start;
 
 	font-family: monospace;
-	font-size: 20px;
+	font-size: 3vmin;
 }
 
 .bar {
-	width: 10px;
+	width: 2vmin;
 
 	justify-self: center;
 	align-self: end;
