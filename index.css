@@ -1,0 +1,32 @@
+body {
+	height: 98%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#box {
+	width: 90px;
+	height: 90px;
+	background-color: white;
+	border-radius: 5px;
+	display: grid;
+	grid-template-columns: 30px 30px 30px;
+	grid-template-rows: 70px 20px;
+	padding: 5px;
+}
+
+.label {
+	justify-self: center;
+	text-align: center;
+	align-self: start;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+.bar {
+	width: 10px;
+	justify-self: center;
+	align-self: end;
+	background-color: black;
+}
